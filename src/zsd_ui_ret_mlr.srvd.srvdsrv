@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Retail Control'
+define service ZSD_UI_RET_MLR {
+  expose Z_C_RET_SINGLETON_MLR as RetailSingleton;
+  expose Z_C_RET_MLR as Retail;
+}

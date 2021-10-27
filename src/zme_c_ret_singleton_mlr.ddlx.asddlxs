@@ -1,0 +1,19 @@
+@Metadata.layer: #CORE
+
+annotate entity Z_C_RET_SINGLETON_MLR
+    with 
+{
+    @UI.facet: [
+
+  {
+    purpose:  #STANDARD,
+    type:     #LINEITEM_REFERENCE,
+    label:    'Stock Management',
+    position: 10,
+    targetElement: '_retail' 
+  }
+  ]
+  
+  @UI.lineItem: [{ position: 10 }]
+  RetailSingletonID;
+}
